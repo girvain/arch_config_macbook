@@ -81,7 +81,7 @@ set shiftwidth=4
 set tabstop=4
 filetype indent on
 
-"colorscheme molokai
+colorscheme Monokai
 
 "search settings (this is a comment in vim)
 set incsearch
