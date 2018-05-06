@@ -56,6 +56,10 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 Plugin 'flazz/vim-colorschemes'
+
+Plugin 'jceb/vim-orgmode'
+Plugin 'tpope/vim-speeddating'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -81,7 +85,7 @@ set shiftwidth=4
 set tabstop=4
 filetype indent on
 
-colorscheme Monokai
+colorscheme badwolf
 
 "search settings (this is a comment in vim)
 set incsearch
